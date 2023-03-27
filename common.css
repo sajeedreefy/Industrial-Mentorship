@@ -1,0 +1,209 @@
+
+@media(max-width: 480px) {
+    #dd {
+        margin:0%;
+    }
+    #sub {
+       margin: 0%;
+        
+    }
+    
+
+}
+#dd {
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* text-align: right; */
+    /* background-color: aqua; */
+    /* text-align: center; */
+}
+#hell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input,
+select {
+    width: 50%;
+    /* adjust the width to your preference */
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgb(198, 198, 198);
+    background-color: rgb(187, 165, 208);
+    box-sizing: border-box;
+    margin: 10px;
+    /* display: in; */
+    display: inline-block;
+}
+
+/* div label, div input {
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+} */
+
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#sub {
+    margin-left: 64%;
+    margin-top: 2px;
+    width: 200px;
+    font-family: 'Gill Sans';
+    display: flex;
+    /* text-align: right;
+    justify-content: right; */
+    /* background-color: rgb(6, 99, 68); */
+}
+
+#link {
+    margin-left: 70%;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#b1 {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(44, 182, 62);
+    font-size: 15px;
+    padding: 8px;
+    margin-right: 10px;
+    font-family: "Arial";
+}
+
+#b2 {
+    border-radius: 5px;
+    background-color: rgb(190, 55, 55);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    margin-right: 5px;
+    font-family: "Arial";
+}
+
+#onet {
+    text-align: center;
+    display: block;
+}
+
+
+/* This is for the second page */
+
+@media (max-width:550px)
+{
+    
+    #img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20px;
+        width: 40px;
+    }
+    th,td,tr
+    {
+        margin: auto;
+        height: 10px;
+        text-align: center;
+    }
+    
+}
+ #search
+{
+    border-top: solid black;
+    border-left: solid black;
+    padding: 10px;
+    width: 200px;
+    margin-left: 2px;
+    background-color: rgb(213, 179, 232);
+    
+}
+#tab
+{
+    width: 100%;
+}
+#main
+{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+th
+{
+    background-color: rgb(107, 200, 155);
+    max-width: 30%;
+    width: 18%;
+    height: 50px;
+    color: white;
+    border: 1px white;
+
+
+}
+
+  
+tr:nth-child(even)
+{
+    background-color: rgb(231, 229, 229);
+}
+tr
+{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+#req
+{
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(162, 118, 203);
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+}
+#req:hover
+{
+    background-color: rgb(194, 170, 216);
+    color: rgb(45, 45, 46);
+}
+#img
+{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+#accept
+{
+    background-color: rgb(58, 123, 177);
+    color: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
+}
+#reject
+{
+    background-color: rgb(222, 66, 66);
+    color: white;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
+}
