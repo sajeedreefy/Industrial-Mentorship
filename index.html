@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title >Submit Leave</title>
+	<link rel="stylesheet" href="./common.css">
+</head>
+<body>
+	
+	<h2 id="onet">Submit Leave</h2>
+	<div id="dd">
+		<div id="hell">
+	<form id="f1">
+		<label for="name"><b>Name:</b></label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="start_date"><b>Start Date:</b></label>
+		<input type="date" id="start_date" name="start_date" required><br>
+
+		<label for="num_days">Number of Days:</label>
+		<input type="number" id="num_days" name="num_days" min="1" max="7" required><br>
+
+		<label for="type">Type:</label>
+		<select id="type" name="type" required>
+			<option value="">-- Select Type --</option>
+			<option value="Sick">Sick</option>
+			<option value="Vacation">Vacation</option>
+			<option value="Personal">Personal</option>
+		</select><br>
+
+		<label for="photo">Photo:</label>
+		<input type="file" id="photo" name="photo"><br>
+	</form>
+	</div>
+		<div id="sub">
+			<button id="b1"> Submit </button>
+		    <button id="b2"> Cancel </button>
+		</div>
+		<br>
+
+		
+	
+	</div>
+	<p id="link"><a href="./Submit details.html">Checkout Leaves</a></p>
+	<script src="/new.js"></script>
+</body>
+</html>
