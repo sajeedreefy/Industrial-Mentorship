@@ -16,7 +16,7 @@ storage.forEach((obj) => {
   pressedit.addEventListener("click", (event) => {
     let rowIndex = event.target.parentElement.parentElement.rowIndex;
     localStorage.setItem("rowInd", JSON.stringify(rowIndex));
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   });
 
   const rejectButton = row.querySelector("#reject");
